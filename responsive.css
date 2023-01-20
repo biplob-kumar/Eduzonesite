@@ -1,0 +1,71 @@
+
+
+/*  start */
+
+
+/*  hero  mobile css  start  */
+@media only screen and (max-width: 480px) {
+  
+    .hero-sectoion{
+        height: 60vh;
+    }
+    .hero-content{
+    margin-top: 2rem;
+    }
+  
+    .hero-content h2{
+        font-size: 2rem;
+    }
+    .hero-content p{
+      font-size: 1rem;
+    }
+  }
+/*  hero mobile css end  */
+
+/*  */
+@media only screen and (max-width: 480px) {
+  .content-header h3{
+    font-size: 2rem;
+   text-align: center;
+}
+.content-header p{
+  text-align: center;
+}
+.video-logo{
+  text-align: center;
+}
+.video-logo img {
+  text-align: center;
+}
+.video-content{
+  text-align: center;
+}
+
+}
+/*  */
+
+@media only screen and (max-width: 480px) {
+  .author-content{
+    text-align: center;
+  }
+  .author-img{
+    text-align: center;
+  }
+}
+/*  */
+@media only screen and (max-width: 480px) {
+  .instructor-img img{
+    width: 100%;
+    text-align: center;
+  }
+  .instracture-content{
+  
+    
+    background-color: #6c757d;
+}
+.instracture-content h3{
+    color: #ff697c;
+}
+}
+/*  */
+/*  end */

@@ -1,0 +1,209 @@
+/*  google front  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*  google front  */
+
+/*  default-css start */
+/* *{
+    font-family: 'Noto Sans', sans-serif; 
+} */
+h1,h2,h3,h4,h5,h6,span,a ,li{
+    font-family: 'Noto Sans', sans-serif;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+/*  default-css  end  */
+/*  semilar section start */
+
+.content-header h3{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #45567c;
+    margin-bottom: 1.5rem;
+}
+/*  semilar section end  */
+/*  nav css start */
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+/*  nav css  end  */
+
+/*  hero-section css staart */
+.hero-sectoion{
+    background-image:linear-gradient(to right, rgba(21, 21, 22, 0.7), rgba(21, 21, 22, 0.7)) ,url('./IMG/slider-img.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.hero-content{
+margin-top: 4rem;
+}
+.hero-content span{
+    color: #ff697c;
+}
+.hero-content h2{
+    font-size: 3rem;
+  
+}
+.hero-content p{
+  font-size: 1.2rem;
+}
+.hero-content a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 18px 30px ;
+    background-color: #ff697c;
+    color: whitesmoke;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+
+.hero-content a:hover{
+    color: #ff697c;
+    background-color: whitesmoke;
+}
+/*  hero-section css end  */
+
+/*  our cource section start */
+.card-content h4{
+    font-weight: bold;
+}
+.card-content i{
+    color: orange;
+}
+.card-content p{
+    margin-bottom: 30px;
+}
+.card-content a{
+
+    text-decoration: none;
+    color: #ff697c;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+/*  our cource section end */
+
+/*  why-chose us section start */
+.video-logo{
+    float: left;
+    width: 60px;
+}
+.video-logo img {
+    max-width: 100%;
+}
+.video-content{
+    float: left;
+   margin-left: 20px;
+  
+}
+.video-content h5{
+    font-weight: 700;
+
+}
+/*  why-chose us section end  */
+
+/* counter=section start */
+
+.counter-section{
+  background-color: #edf1f4;
+}
+.count-content h2 {
+    font-weight: 700;
+    color: #45567c;
+}
+.count-content p{
+    color: #45567c;
+}
+/* counter=section end  */
+
+/*  instructoe-css start */
+.instracture-content{
+   
+    background-color: #6c757d;
+}
+.instracture-content h3{
+    font-size: 1.5rem;
+    color: #ff697c;
+}
+
+/*  instructoe-css  end  */
+
+/* nes section start */
+.news-button a{
+    position: relative;
+    left: 40%;
+    color: whitesmoke;
+     text-decoration: none;
+    display: inline-block;
+    background-color: #ff697c;
+    padding: 10px 20px ;
+}
+/* nes section  end */
+
+/*  bscribe-section start */
+.subscribe-section{
+ 
+   background-color: #ff697c;
+}
+.subscribe-input h3{
+    font-weight: bold;
+    font-size: 2rem;
+}
+/*  bscribe-section  end  */
+
+/*  footer-section start */
+.footer-section{
+    background-color:#f8f9fa ;
+}
+
+.contact-form{}
+.contact-form input{
+    background-color:#fff;
+}
+.contact-form a {
+    color: whitesmoke;
+    font-weight: 700;
+    margin-top: 10px;
+    border: none;
+    padding: 10px 20px ;
+    background-color: #ff697c;
+    display:block;
+}
+.tag-clud h4{
+    font-weight: bold;
+    color: #45567c;
+}
+.contact-form h4{
+    color: #45567c;
+    font-weight: bold;
+}
+.footer-logo ul {
+    margin-left: -33px;
+}
+.footer-logo ul li{
+    margin-left: 0;
+}
+.footer-logo ul  {
+
+}
+.footer-logo ul  a i{
+    color: whitesmoke;
+}
+.footer-logo ul  a {
+    font-size: 1.5rem;
+    background-color: #ff697c;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+/*  footer-section  end  */
