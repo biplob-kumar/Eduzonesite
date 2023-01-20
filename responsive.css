@@ -68,4 +68,54 @@
 }
 }
 /*  */
+
+/*  */
+@media only screen and (max-width: 480px) {
+  .up-coming-content {
+    text-align: center;
+  }
+  .counter{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-color: #ff697c;
+     text-align: center;
+    width: 50px;
+    height: 50px;
+   
+    text-align: center;
+    line-height:50px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+  
+}
+.counter h3{
+
+  text-align: center;
+}
+.upcoming-event-content{
+  text-align: center;
+}
+.upcoming-event-content h4 {
+    font-weight: 700;
+}
+.upcoming-event-content ul {}
+.upcoming-event-content ul li{
+color: #6c757d;
+}
+.upcoming-event-content a{
+    border: 2px solid #ff697c;
+    background-color: whitesmoke;
+    padding: 10px 20px ;
+    color:#ff697c;
+    font-weight: bold;
+    text-decoration: none;
+}
+.uplomin-right-img img{
+ text-align: center;
+ 
+ width: 100%;
+}
+}
+/*  */
 /*  end */
