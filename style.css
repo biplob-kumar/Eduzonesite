@@ -35,7 +35,7 @@ li{
 
 /*  hero-section css staart */
 .hero-sectoion{
-    background-image:linear-gradient(to right, rgba(21, 21, 22, 0.7), rgba(21, 21, 22, 0.7)) ,url('./IMG/slider-img.jpg');
+    background-image:linear-gradient(to right, rgba(21, 21, 22, 0.7), rgba(21, 21, 22, 0.7)) ,url('./img/slider-img.jpg');
     background-size: cover;
     width: 100%;
     height: 90vh;
